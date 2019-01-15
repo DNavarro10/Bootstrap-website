@@ -1,14 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu')
 
 //fuentes
-    $lato = font-family: 'Lato', sans-serif
     
-    $pacifico = font-family: 'Pacifico', cursive
+$lato :  'Lato', sans-serif
+$pacifico :  'Pacifico', cursive
+$rigth :  'Righteous', cursive
+$robocond :  'Roboto Condensed', sans-serif
+$ubunto :  'Ubuntu', sans-serif
 
-    $rigth = font-family: 'Righteous', cursive
+//colores
+$turqueza : #00ebeb 
+.body
+    padding: 0%
+    margin: 0%
+    font-family: $lato
 
-    $robocond = font-family: 'Roboto Condensed', sans-serif
+.navbar-brand
+    font-family: $pacifico
+    font-size: 35px
+    color: lightcoral !important
 
-    $ubuntto = font-family: 'Ubuntu', sans-serif
+.navbar .nav-link 
+    font-size: 16px
+    color: black !important
+    font-family: $robocond
+    transition: 0.3s
+    &:hover
+        color: $turqueza !important
+.active .nav-link
+    color: $turqueza !important
 
-
+.menu-right-btn
+    padding: 13px 46px
+    background-color: transparent
+    transition: all 0.3 ease-in
+    &:hover
+        color: white
+        background-color: $turqueza
