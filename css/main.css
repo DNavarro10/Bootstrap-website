@@ -30,4 +30,29 @@
     color: white;
     background-color: #00ebeb; }
 
+.site-content {
+  background-image: url(https://images.pexels.com/photos/33972/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.main, .container-fluid, .site-tittle .site-desc {
+  color: white;
+  text-shadow: 0px 0px 0.01px black;
+  font-family: "Righteous", cursive; }
+  .main .site-tittle, .container-fluid .site-tittle, .site-tittle .site-desc .site-tittle {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px; }
+  .main .site-desc, .container-fluid .site-desc, .site-tittle .site-desc .site-desc {
+    font-size: 14px;
+    padding: 0px 15px 0px 15px; }
+  .main .site-btn1, .container-fluid .site-btn1, .site-tittle .site-desc .site-btn1 {
+    background-color: black;
+    color: white; }
+  .main .site-btn2, .container-fluid .site-btn2, .site-tittle .site-desc .site-btn2 {
+    background-color: white; }
+  .main .site-bn1 .site-btn2, .container-fluid .site-bn1 .site-btn2, .site-tittle .site-desc .site-bn1 .site-btn2 {
+    margin-top: 5%;
+    margin-bottom: 30%; }
+
 /*# sourceMappingURL=main.css.map */
