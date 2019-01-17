@@ -47,12 +47,28 @@
     font-size: 14px;
     padding: 0px 15px 0px 15px; }
   .main .site-btn1, .container-fluid .site-btn1, .site-tittle .site-desc .site-btn1 {
+    margin-left: 20%;
     background-color: black;
     color: white; }
   .main .site-btn2, .container-fluid .site-btn2, .site-tittle .site-desc .site-btn2 {
     background-color: white; }
-  .main .site-bn1 .site-btn2, .container-fluid .site-bn1 .site-btn2, .site-tittle .site-desc .site-bn1 .site-btn2 {
+  .main .flex-bott, .container-fluid .flex-bott, .site-tittle .site-desc .flex-bott {
     margin-top: 5%;
-    margin-bottom: 30%; }
+    margin-bottom: 40%; }
+
+.main, .section-1, .container, .heading-1 {
+  margin-top: 5%; }
+  .main .heading-2, .section-1 .heading-2, .container .heading-2, .heading-1 .heading-2 {
+    margin-bottom: 5%;
+    font-size: 39px; }
+  .main .para-1, .section-1 .para-1, .container .para-1, .heading-1 .para-1 {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%; }
+  .main .card-text, .main .para-1, .section-1 .card-text, .section-1 .para-1, .container .card-text, .container .para-1, .heading-1 .card-text, .heading-1 .para-1 {
+    color: rgba(0, 0, 0, 0.59); }
+
+.main, .section-1 {
+  margin-bottom: 8%; }
 
 /*# sourceMappingURL=main.css.map */
