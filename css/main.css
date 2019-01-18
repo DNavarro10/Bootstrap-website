@@ -67,8 +67,31 @@
     margin-bottom: 5%; }
   .main .card-text, .main .para-1, .section-1 .card-text, .section-1 .para-1, .container .card-text, .container .para-1, .heading-1 .card-text, .heading-1 .para-1 {
     color: rgba(0, 0, 0, 0.59); }
+  .main .card-title, .section-1 .card-title, .container .card-title, .heading-1 .card-title {
+    padding-top: 15px; }
 
 .main, .section-1 {
   margin-bottom: 8%; }
+
+.main, .section-2 .container-fluid {
+  background-image: url(https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-attachment: fixed; }
+  .main .heading-1, .section-2 .container-fluid .heading-1 {
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: "Righteous", cursive;
+    color: rgba(0, 0, 89, 0.6) !important;
+    width: 80%; }
+  .main .para, .section-2 .container-fluid .para {
+    width: 80%;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    margin-bottom: 7%; }
+  .main .btn, .section-2 .container-fluid .btn {
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%; }
 
 /*# sourceMappingURL=main.css.map */
