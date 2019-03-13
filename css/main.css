@@ -94,4 +94,11 @@
     width: 30%;
     padding: 2% 5%; }
 
+.main, .section-3 {
+  margin-top: 6%; }
+  .main i, .section-3 i {
+    color: #00ebeb; }
+  .main p, .section-3 p {
+    color: rgba(0, 0, 0, 0.6); }
+
 /*# sourceMappingURL=main.css.map */
