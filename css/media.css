@@ -1,7 +1,9 @@
 @media screen and (max-width: 768px) {
   .section-1 .card {
-    width: 14rem;
-    margin-bottom: 5%; }
+    width: 13rem;
+    margin-bottom: 5%;
+    -ms-flex-line-pack: center;
+        align-content: center; }
 
   .section-4 .col-md-7 img {
     width: 100%; } }

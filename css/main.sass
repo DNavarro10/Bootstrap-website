@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu')
-@import 'media'
+
 //fuentes
     
 $lato :  'Lato', sans-serif
@@ -79,7 +79,7 @@ $turqueza : #00ebeb
     .card-title
         padding-top: 15px
     .card
-        width: 15rem
+        width: 20rem
     
     
 .main, .section-1
@@ -165,3 +165,42 @@ $turqueza : #00ebeb
         text-decoration: none
         color: rgba(0, 0, 0, 0.7)
 
+
+@media screen and (max-width: 768px)
+    .section-1 .card
+        width: 13rem
+        margin-bottom: 5%
+        align-content: center
+
+    .section-4 .col-md-7 img
+        width: 100%
+        
+
+@media screen and (max-width: 320px)
+    a 
+        width: 70%
+        margin-right: 20px
+    .site-content .site-tittle
+        font-size: 30px
+        padding-left: 15%
+    .site-content .site-btn2
+        display: none
+
+    .section-1 .heading-1, .section-1 .heading-2
+        font-size: 25px
+
+    .section-1 .col-md-4
+        padding: 5%
+        margin-left: 8%
+
+    .section-4 .col-md-5
+        padding: 0% 15%
+        h1
+            font-size: 22px
+    .section-4 .col-md-7
+        img 
+            margin-left: 4%
+
+footer
+    .form-control
+        width: 60%
